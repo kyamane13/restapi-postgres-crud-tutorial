@@ -1,0 +1,14 @@
+
+# GET http://localhost:8080/demo HTTP/1.1
+GET http://localhost:8081/api/customers HTTP/1.1
+
+POST http://localhost:8081/api/customers HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "012",
+    "username": "user012",
+    "email": "test.user.012@EXAMPLE.com",
+    "phoneNumber": "12345678901",
+    "postCode": "4567123"
+}
